@@ -29,7 +29,6 @@ SvgBrush.prototype.drawPolyLine = function(points, styleObj) {
         shape.setAttributeNS(null, o, styleObj["o"]);
     }
     this.doc.appendChild(shape);
-    console.log("testtest");
 }
 
 
